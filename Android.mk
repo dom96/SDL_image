@@ -13,7 +13,7 @@ PNG_LIBRARY_PATH := external/libpng-1.6.32
 
 # Enable this if you want to support loading WebP images
 # The library path should be a relative path to this directory.
-SUPPORT_WEBP ?= true
+SUPPORT_WEBP ?= false
 WEBP_LIBRARY_PATH := external/libwebp-0.6.0
 
 
@@ -53,7 +53,6 @@ LOCAL_SRC_FILES :=  \
     IMG_tga.c       \
     IMG_tif.c       \
     IMG_webp.c      \
-    IMG_WIC.c       \
     IMG_xcf.c       \
     IMG_xpm.c.arm   \
     IMG_xv.c        \
